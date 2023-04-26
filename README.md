@@ -1,2 +1,2 @@
 # 2404-api-node-express
-Curso de Node pela Alura
+Node.js: API Rest pela Alura
