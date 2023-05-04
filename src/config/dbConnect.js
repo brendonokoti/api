@@ -1,9 +1,6 @@
 import mongoose from "mongoose";
-import * as dotenv from "dotenv";
-dotenv.config()
 
-const CONN = process.env.CONN;
-mongoose.connect(CONN);
+mongoose.connect(process.env.CONEXAO_DB);
 
 let db = mongoose.connection;
 
